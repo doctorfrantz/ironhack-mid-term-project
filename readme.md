@@ -13,3 +13,9 @@
 - Todos los ficheros necesarios creados
 - Trello creado
 - Medidas de los Media queries capturadas
+
+## Martes, 22 de Noviembre de 2022
+
+# Hecho
+
+- Colores en todos los elementos de index.html

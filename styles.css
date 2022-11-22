@@ -6,10 +6,79 @@
     margin: 0;
     padding: 0;
 }
+/* Colors */
+.grey {
+    color: #6C718B;
+}
+.dark-grey {
+    color: #292E47;
+}
+.yellow {
+    color: #FFC600;
+}
+.light-blue {
+    color: #ACD6F5;
+}
+.dark-blue {
+    color: #072AC8;
+}
+
+
+/* Body */
+body {
+    background-color: #F1F4FB;
+}
+
+/* Elements */
+a {
+    text-decoration: none;
+    color: #292E47
+}
+a:hover {
+    color: #072AC8;
+}
+.cta-button {
+    color: white;
+    background-color: #072AC8;
+    border-style: none;
+}
+
+
 /* Header */
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Hero */
+
+#hero-img-section {
+    background-image: url(assets/hero-section/hero-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
+/* Companies */
+/* Recent Projects */
+/* Testimonials */
+#testimonials-section {
+    background-color: #292E47;
+    background-image: url(assets/testimonial-section/orbit.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Our Services */
+#services-section { }
+/* CTA */
+#cta-section {
+    background-color: #FFC600;
+}
+/* Footer */
 
 
 
@@ -18,3 +87,4 @@
 
 
 /* Media Queries */
+
