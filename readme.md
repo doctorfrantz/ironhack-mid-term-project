@@ -1,4 +1,4 @@
-#MID TERM PROJECT - IRONHACK
+MID TERM PROJECT - IRONHACK
 
 ## Proyecto llevado a cabo durante la tercera semana del curso de Front End Web Development
 
@@ -20,3 +20,4 @@
 
 - Colores en todos los elementos de index.html
 - Flex en index.html
+- Margins y paddings - día 1

@@ -18,7 +18,7 @@
             <a href="#">Services</a>
         </nav>
         <!-- CONTACT -->
-        <a class="cta-button" href="/contact.html">Contact Us</a>
+        <a id="header-cta" class="cta-button" href="/contact.html">Contact Us</a>
         <!-- BURGER MENU > 915px -->
         <img id="burguer-menu-img" src="#" alt="Burguer Menu">
     </header>
@@ -30,14 +30,14 @@
             <p class="grey">Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
             <nav>
                 <a class="grey" href="#">See our work</a>
-                <a class="cta-button" href="/contact.html">Get in touch</a>
+                <a id="hero-cta" class="cta-button" href="/contact.html">Get in touch</a>
             </nav>
         </div>
         <!-- IMAGES DIV -->
         <div id="hero-img-section">
             <!-- MAIN IMAGE ON BACKGROUND WITH CSS -->
-            <img src="/assets/hero-section/card-1.png" alt="Credit Card Image">
-            <img src="/assets/hero-section/card-2.png" alt="Project Acceptance Image">
+            <img id="hero-img-1" src="/assets/hero-section/card-1.png" alt="Credit Card Image">
+            <img id="hero-img-2" src="/assets/hero-section/card-2.png" alt="Project Acceptance Image">
         </div>
     </section>
     <!-- COMPANIES -->
@@ -52,19 +52,19 @@
     <div id="recent-projects-section">
         <h2 class="dark-grey">Recent Projects</h2>
         <div id="project-list">
-            <div>
+            <div class="project-item">
                 <img src="/assets/projects-section/1.jpg" alt="">
                 <h3 class="dark-grey">Project Title</h3>
                 <p class="dark-grey">Project Description</p>
                 <a class="dark-blue" href="#">Learn More</a>
             </div>
-            <div>
+            <div class="project-item">
                 <img src="/assets/projects-section/2.jpg" alt="">
                 <h3 class="dark-grey">Project Title</h3>
                 <p class="dark-grey">Project Description</p>
                 <a class="dark-blue" href="#">Learn More</a>
             </div>
-            <div>
+            <div class="project-item">
                 <img src="/assets/projects-section/3.jpg" alt="">
                 <h3 class="dark-grey">Project Title</h3>
                 <p class="dark-grey">Project Description</p>
@@ -101,19 +101,19 @@
         <h2 class="dark-grey">Our Services</h2>
         <div id="service-items">
             <div class="service-item">
-                <img src="/assets/services-section/icons/1.svg" alt="Stylo Icon">
+                <img class="service-icon" src="/assets/services-section/icons/1.svg" alt="Stylo Icon">
                 <h3 class="dark-grey">User Interface Design</h3>
                 <p class="dark-grey">Circle provides you with a stunning user interface design that is accessible to everyone.</p>
                 <a class="dark-blue" href="#">Learn More</a>
             </div>
             <div class="service-item">
-                <img src="/assets/services-section/icons/2.svg" alt="Click Icon">
+                <img class="service-icon" src="/assets/services-section/icons/2.svg" alt="Click Icon">
                 <h3 class="dark-grey">User Experience Design</h3>
                 <p class="dark-grey">Circle always focuses on delivering the best user experience to your customers.</p>
                 <a class="dark-blue" href="">Learn More</a>
             </div>
             <div class="service-item">
-                <img src="/assets/services-section/icons/3.svg" alt="File Icon">
+                <img class="service-icon" src="/assets/services-section/icons/3.svg" alt="File Icon">
                 <h3 class="dark-grey">Application Development</h3>
                 <p class="dark-grey">We develop high-quality mobile and web applications using the latest technology stack.</p>
                 <a class="dark-blue" href="">Learn More</a>
@@ -134,18 +134,24 @@
     </div>
     <!-- FOOTER -->
     <footer id="footer-section">
-        <div>
+        <div class="footer-logo">
             <img src="/assets/logos/circle.svg" alt="Circle Logo">
             <p class="grey">2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
         </div>
-        <nav>
-            <a class="dark-blue" href="#">Team</a>
-            <a class="dark-blue" href="#">Services</a>
-            <a class="dark-blue" href="#">About Us</a>
-            <a class="dark-blue" href="#">Press</a>
-            <a class="dark-blue" href="#">Projects</a>
-            <a class="dark-blue" href="#">Privacy Policy</a>
-        </nav>
+        <div class="footer-main-nav">
+            <nav class="footer-nav">
+                <a class="dark-blue" href="#">Team</a>
+                <a class="dark-blue" href="#">Services</a>
+            </nav>
+            <nav class="footer-nav">
+                <a class="dark-blue" href="#">About Us</a>
+                <a class="dark-blue" href="#">Press</a>
+            </nav>
+            <nav class="footer-nav">
+                <a class="dark-blue" href="#">Projects</a>
+                <a class="dark-blue" href="#">Privacy Policy</a>
+            </nav>
+        </div>
     </footer>
     <script src="/index.js"></script>
 </body>
