@@ -28,9 +28,14 @@
         <div id="hero-text-section">
             <h1 class="dark-grey">Empower Your Business With Stunning Design!</h1>
             <p class="grey">Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
-            <nav>
+            <!-- THOSE ELEMENTS SWITCH POSITION ON TABLET AND PHONE QUERIES -->
+            <nav id="hero-desktop">
                 <a class="grey" href="#">See our work</a>
                 <a id="hero-cta" class="cta-button" href="/contact.html">Get in touch</a>
+            </nav>
+            <nav id="hero-tablet-phone">
+                <a id="hero-cta" class="cta-button" href="/contact.html">Get in touch</a>
+                <a class="grey" href="#">See our work</a>
             </nav>
         </div>
         <!-- IMAGES DIV -->
@@ -46,7 +51,8 @@
         <img src="/assets/logos/google-logo.svg" alt="Google Logo">
         <img src="/assets/logos/microsoft-logo.svg" alt="Microsoft Logo">
         <img src="/assets/logos/fedex-logo.svg" alt="FedEx Logo">
-        <img src="/assets/logos/amazon-logo.svg" alt="Amazon Logo">
+        <!-- AMAZON LOGO HIDDEN ON TABLET AND PHONE QUERIES -->
+        <img id="amazon-logo" src="/assets/logos/amazon-logo.svg" alt="Amazon Logo">
     </div>
     <!-- RECENT PROJECTS -->
     <div id="recent-projects-section">
@@ -76,8 +82,8 @@
     <div id="testimonials-section">
         <!-- MEMOJIS - HIDDEN AT > 767PX -->
         <div class="memojis">
-            <img src="/assets/testimonial-section/memoji-1.png" alt="Emoji Face">
-            <img src="/assets/testimonial-section/memoji-3.png" alt="Memoji Face">
+            <img id="memoji-one" src="/assets/testimonial-section/memoji-1.png" alt="Emoji Face">
+            <img id="memoji-two" src="/assets/testimonial-section/memoji-3.png" alt="Memoji Face">
         </div>
         <div id="testimonials-main">
             <h2>Hear What Our Clients Have to Say</h2>
@@ -92,8 +98,8 @@
         </div>
         <!-- MEMOJIS - HIDDEN AT > 767PX -->
         <div class="memojis">
-            <img src="/assets/testimonial-section/memoji-2.png" alt="Memoji Face">       
-            <img src="/assets/testimonial-section/memoji-4.png" alt="Memoji Face">
+            <img id="memoji-three" src="/assets/testimonial-section/memoji-2.png" alt="Memoji Face">       
+            <img id="memoji-four" src="/assets/testimonial-section/memoji-4.png" alt="Memoji Face">
         </div>
     </div>
     <!-- OUR SERVICES -->
@@ -101,19 +107,22 @@
         <h2 class="dark-grey">Our Services</h2>
         <div id="service-items">
             <div class="service-item">
-                <img class="service-icon" src="/assets/services-section/icons/1.svg" alt="Stylo Icon">
+                <div class="service-icon"><img src="/assets/services-section/icons/1.svg" alt="Stylo Icon">
+                </div>
                 <h3 class="dark-grey">User Interface Design</h3>
                 <p class="dark-grey">Circle provides you with a stunning user interface design that is accessible to everyone.</p>
                 <a class="dark-blue" href="#">Learn More</a>
             </div>
             <div class="service-item">
-                <img class="service-icon" src="/assets/services-section/icons/2.svg" alt="Click Icon">
+                <div class="service-icon"><img src="/assets/services-section/icons/2.svg" alt="Click Icon">
+                </div>
                 <h3 class="dark-grey">User Experience Design</h3>
                 <p class="dark-grey">Circle always focuses on delivering the best user experience to your customers.</p>
                 <a class="dark-blue" href="">Learn More</a>
             </div>
             <div class="service-item">
-                <img class="service-icon" src="/assets/services-section/icons/3.svg" alt="File Icon">
+                <div class="service-icon"><img src="/assets/services-section/icons/3.svg" alt="File Icon">
+                </div>
                 <h3 class="dark-grey">Application Development</h3>
                 <p class="dark-grey">We develop high-quality mobile and web applications using the latest technology stack.</p>
                 <a class="dark-blue" href="">Learn More</a>
@@ -125,9 +134,9 @@
         <h2 class="dark-grey">Do you have any questions?</h2>
         <p class="grey">Let us help you!</p>
         <div  id="cta-form">
-            <div>
+            <div id="cta-form-input">
                 <img src="/assets/newsletter/icon/mail.svg" alt="Mail Icon">
-                <input type="mail">
+                <input type="mail" placeholder="Enter your email">
             </div>
             <button class="cta-button" type="submit">Subscribe</button>
         </div>
@@ -141,14 +150,14 @@
         <div class="footer-main-nav">
             <nav class="footer-nav">
                 <a class="dark-blue" href="#">Team</a>
-                <a class="dark-blue" href="#">Services</a>
-            </nav>
-            <nav class="footer-nav">
-                <a class="dark-blue" href="#">About Us</a>
                 <a class="dark-blue" href="#">Press</a>
             </nav>
             <nav class="footer-nav">
+                <a class="dark-blue" href="#">Service</a>
                 <a class="dark-blue" href="#">Projects</a>
+            </nav>
+            <nav class="footer-nav">
+                <a class="dark-blue" href="#">About Us</a>
                 <a class="dark-blue" href="#">Privacy Policy</a>
             </nav>
         </div>
