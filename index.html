@@ -20,7 +20,7 @@
         <!-- CONTACT -->
         <a class="cta-button" href="/contact.html">Contact Us</a>
         <!-- BURGER MENU > 915px -->
-        <img src="" alt="Burguer Menu">
+        <img id="burguer-menu-img" src="#" alt="Burguer Menu">
     </header>
     <!-- HERO -->
     <section class="hero">
@@ -41,7 +41,7 @@
         </div>
     </section>
     <!-- COMPANIES -->
-    <div>
+    <div id="companies">
         <img src="/assets/logos/airbnb-logo.svg" alt="Airbnb Logo">
         <img src="/assets/logos/google-logo.svg" alt="Google Logo">
         <img src="/assets/logos/microsoft-logo.svg" alt="Microsoft Logo">
@@ -49,46 +49,57 @@
         <img src="/assets/logos/amazon-logo.svg" alt="Amazon Logo">
     </div>
     <!-- RECENT PROJECTS -->
-    <h2 class="dark-grey">Recent Projects</h2>
-    <div>
-        <div>
-            <img src="/assets/projects-section/1.jpg" alt="">
-            <h3 class="dark-grey">Project Title</h3>
-            <p class="dark-grey">Project Description</p>
-            <a class="dark-blue" href="#">Learn More</a>
-        </div>
-        <div>
-            <img src="/assets/projects-section/2.jpg" alt="">
-            <h3 class="dark-grey">Project Title</h3>
-            <p class="dark-grey">Project Description</p>
-            <a class="dark-blue" href="#">Learn More</a>
-        </div>
-        <div>
-            <img src="/assets/projects-section/3.jpg" alt="">
-            <h3 class="dark-grey">Project Title</h3>
-            <p class="dark-grey">Project Description</p>
-            <a class="dark-blue" href="#">Learn More</a>
+    <div id="recent-projects-section">
+        <h2 class="dark-grey">Recent Projects</h2>
+        <div id="project-list">
+            <div>
+                <img src="/assets/projects-section/1.jpg" alt="">
+                <h3 class="dark-grey">Project Title</h3>
+                <p class="dark-grey">Project Description</p>
+                <a class="dark-blue" href="#">Learn More</a>
+            </div>
+            <div>
+                <img src="/assets/projects-section/2.jpg" alt="">
+                <h3 class="dark-grey">Project Title</h3>
+                <p class="dark-grey">Project Description</p>
+                <a class="dark-blue" href="#">Learn More</a>
+            </div>
+            <div>
+                <img src="/assets/projects-section/3.jpg" alt="">
+                <h3 class="dark-grey">Project Title</h3>
+                <p class="dark-grey">Project Description</p>
+                <a class="dark-blue" href="#">Learn More</a>
+            </div>
         </div>
     </div>
     <!-- TESTIMONIALS -->
     <div id="testimonials-section">
-        <h2>Hear What Our Clients Have to Say</h2>
-        <h5 class="yellow">"Circle helped us through every stage of our startup. We really enjoyed working with you."</h5>
-        <div>
-            <img src="/assets/testimonial-section/profile.png" alt="Kristin Watson Profile Picture">
-            <p class="light-blue"">Kristin Watson</p>
-            <p>Booking.com</p>
+        <!-- MEMOJIS - HIDDEN AT > 767PX -->
+        <div class="memojis">
+            <img src="/assets/testimonial-section/memoji-1.png" alt="Emoji Face">
+            <img src="/assets/testimonial-section/memoji-3.png" alt="Memoji Face">
         </div>
-        <!-- EMOJIS - HIDDEN AT > 767PX -->
-        <img src="/assets/testimonial-section/memoji-1.png" alt="Emoji Face">
-        <img src="/assets/testimonial-section/memoji-2.png" alt="Memoji Face">
-        <img src="/assets/testimonial-section/memoji-3.png" alt="Memoji Face">
-        <img src="/assets/testimonial-section/memoji-4.png" alt="Memoji Face">
+        <div id="testimonials-main">
+            <h2>Hear What Our Clients Have to Say</h2>
+            <h5 class="yellow">"Circle helped us through every stage of our startup. We really enjoyed working with you."</h5>
+            <div id="testimonial-profile">
+                <img src="/assets/testimonial-section/profile-1.png" alt="Kristin Watson Profile Picture">
+                <div id="testimonial-profile-info">
+                    <p class="light-blue"">Kristin Watson</p>
+                    <p>Booking.com</p>
+                </div>
+            </div>
+        </div>
+        <!-- MEMOJIS - HIDDEN AT > 767PX -->
+        <div class="memojis">
+            <img src="/assets/testimonial-section/memoji-2.png" alt="Memoji Face">       
+            <img src="/assets/testimonial-section/memoji-4.png" alt="Memoji Face">
+        </div>
     </div>
     <!-- OUR SERVICES -->
     <div id="services-section">
         <h2 class="dark-grey">Our Services</h2>
-        <div>
+        <div id="service-items">
             <div class="service-item">
                 <img src="/assets/services-section/icons/1.svg" alt="Stylo Icon">
                 <h3 class="dark-grey">User Interface Design</h3>
@@ -113,9 +124,9 @@
     <div id="cta-section">
         <h2 class="dark-grey">Do you have any questions?</h2>
         <p class="grey">Let us help you!</p>
-        <div>
+        <div  id="cta-form">
             <div>
-                <img src="" alt="">
+                <img src="/assets/newsletter/icon/mail.svg" alt="Mail Icon">
                 <input type="mail">
             </div>
             <button class="cta-button" type="submit">Subscribe</button>
