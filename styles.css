@@ -84,7 +84,7 @@ header nav a {
     color: #6C718B;
     margin: 0 2vw 0 2vw;
 }
-header nav a:visited {
+.main-nav a:nth-child(1) {
     color: #0082F3;
 }
 header nav a:hover {
@@ -469,7 +469,7 @@ footer {
         margin: 2vh 0 4vh 0;
         width: 95%;
     }
-    header nav {
+    .main-nav {
         display: none;
     }
     #header-cta {
