@@ -5,8 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    
+    <!-- HEADER -->
+    <header>
+        <!-- LOGO -->
+        <a href="#"><img src="/assets/logos/circle.svg" alt="Circle Logo"></a>
+        <!-- MAIN NAV -->
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Services</a>
+        </nav>
+        <!-- CONTACT -->
+        <a id="header-cta" class="cta-button" href="/contact.html">Contact Us</a>
+        <!-- BURGER MENU > 915px -->
+        <img id="burger-menu-img" src="#" alt="Burger Menu">
+    </header>
+    <div class="main">
+        <h1>Contact Us</h1>
+        <form id="contact-form" action="" method="post">
+            <div class="form-field" id="name-field">
+                <label class="form-label" for="name">Full Name *</label>
+                <input class="input-field" type="text" id="name" placeholder="Enter your full name">
+            </div>
+            <div class="form-field" id="email-field">
+                <label class="form-label" for="email">Email</label>
+                <input class="input-field" type="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-field" id="phone-field">
+                <label class="form-label" for="phone">Phone</label>
+                <input class="input-field" type="tel" placeholder="Enter your phone">
+            </div>
+            <div class="form-field" id="text-field">
+                <label class="form-label" for="text">Message *</label>
+                <textarea class="textarea-field" name="text" id="text" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+            </div>
+            <input class="submit-button" type="submit" id="submit-button">
+        </form>
+    </div>
+    <!-- FOOTER -->
+    <footer id="footer-section">
+        <div class="footer-logo">
+            <img src="/assets/logos/circle.svg" alt="Circle Logo">
+            <p class="grey">2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+        </div>
+        <div class="footer-main-nav">
+            <nav class="footer-nav">
+                <a class="dark-blue" href="#">Team</a>
+                <a class="dark-blue" href="#">Press</a>
+            </nav>
+            <nav class="footer-nav">
+                <a class="dark-blue" href="#">Service</a>
+                <a class="dark-blue" href="#">Projects</a>
+            </nav>
+            <nav class="footer-nav">
+                <a class="dark-blue" href="#">About Us</a>
+                <a class="dark-blue" href="#">Privacy Policy</a>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>

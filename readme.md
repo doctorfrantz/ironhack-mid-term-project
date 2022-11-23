@@ -29,7 +29,14 @@ MID TERM PROJECT - IRONHACK
 
 - Margins y paddings Large Desktop
 - Media Queries en index.html
+
   - Small Desktop (1200px a 992px) Completada
   - Tablet (991px a 768px) Completada
   - Smartphone (767px a 480px) Completada
   - Small Smartphone (479 a 0px) Completada
+
+- contact.html HTML & CSS completed
+  - Structure
+  - Design
+  - Grid
+  - Media Queries
