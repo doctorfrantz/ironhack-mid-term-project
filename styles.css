@@ -110,6 +110,7 @@ header nav a:hover {
 }
 #hero-text-section h1 {
     margin: 0 0 5vh 0;
+    width: 500px;
 }
 #hero-text-section p {
     font-family: 'Roboto', sans-serif;
@@ -180,12 +181,14 @@ header nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     height: 55vh;
     margin: 5vh 0 0 0;
 }
 .project-item {
     background-color: white;
     margin: 0 0 3vh 0;
+    width: 31%;
 }
 .project-item h3 {
     margin: 2vh 0 2vh 3vh;
@@ -201,7 +204,7 @@ header nav a:hover {
     margin: 0 0 0 3vh;
 }
 #recent-projects-section div div img {
-    max-width: 20vw;
+    max-width: 100%;
     min-height: 30vh;
 }
 /* Testimonials */
@@ -224,7 +227,7 @@ header nav a:hover {
     align-items: center;
 }
 .memojis img {
-    width: 20vh;
+    width: 35%;
 }
 /* MEMOJIS PLACEMENT */
 #memoji-one {
@@ -250,6 +253,10 @@ header nav a:hover {
 }
 #testimonials-main h2 {
     color: white;
+    width: 700px;
+}
+#testimonials-main h5 {
+    width: 700px;
 }
 #testimonial-profile {
     display: flex;
@@ -289,7 +296,7 @@ header nav a:hover {
     flex-direction: column;
     background-color: white;
     width: 31%;
-    height: 40vh;
+    height: 45vh;
 }
 .service-item h3 {
     margin: 3vh 0 0 3vh;
@@ -408,12 +415,50 @@ footer {
 
 /* Media Queries */
 /* DESKTOP */
-@media only screen and (min-width: 992px) {
-    #brguer-menu-img {
+@media only screen and (min-width: 1200px) {
+    #burger-menu-img {
         display: none;
     }
     #hero-tablet-phone {
         display: none;
+    }
+    #companies-phone {
+        display: none;
+    }
+}
+/* SMALL DESKTOP */
+@media only screen and (max-width:1199px) and (min-width:992px) { 
+    #burger-menu-img {
+        display: none;
+    }
+    /* HERO */
+    .hero {
+        width: 95%;
+    }
+    #hero-tablet-phone {
+        display: none;
+    }
+    /* COMPANIES */
+    #companies-phone {
+        display: none;
+    }
+    /* PROJECTS */
+    #recent-projects-section {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 0 8vh 0;
+    }
+    /* SERVICES */
+    #services-section {
+        width: 90%;
+    }
+    /* CTA */
+    #cta-section {
+        width: 100%;
+    }
+    footer {
+        width: 90%;
     }
 }
 /* TABLET */
@@ -466,11 +511,201 @@ footer {
         margin: 5vh 0 0 0;
     }
     /* COMPANIES */
+    #companies {
+        display: none;
+    }
+    #companies-phone {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10vh 0 10vh 0;
+    }
+    .companies-col {
+        display: flex;
+        flex-direction: column;
+        gap: 7vh;
+    }
     #amazon-logo {
         display: none;
+    }
+
+    /* PROJECTS */
+    #recent-projects-section {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 0 8vh 0;
+        overflow: auto;
+    }
+    .project-item {
+        width: 400px;
+    }
+    /* TESTIMONIALS */
+    #testimonials-section {
+        width: 100%;
+    }
+     /* SERVICES */
+     #services-section {
+        width: 90%;
+    }
+    /* CTA */
+    #cta-section {
+        width: 100%;
+    }
+    footer {
+        width: 90%;
     }
 }
 /* PHONE */
 @media only screen and (max-width: 767px) {
-    
+    /* HEADER */
+    header {
+        margin: 2vh 0 4vh 0;
+        width: 95%;
+    }
+    header nav {
+        display: none;
+    }
+    #header-cta {
+        display: none;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: 0 0 0 0;
+    }
+    #hero-desktop {
+        display: none;
+    }
+    #hero-text-section {
+        max-width: 80%;
+        text-align: center;
+    }
+    #hero-text-section h1 {
+        margin: 0 0 0 0;
+        font-size: 40px;
+    }
+    #hero-text-section p {
+        max-width: 100%;
+        line-height: 3.7vh;
+        margin: 0 0 7vh 0;
+        text-align: center;
+        font-size: 17px;
+    }
+    #hero-text-section nav a {
+        margin: 0 0 0 0;
+    }
+    #hero-text-section nav a:first-child {
+        margin: 0 3vh 0 0;
+    }
+    #hero-cta {
+        padding: 2vh 4vh 2vh 4vh;
+    }
+    #hero-img-section {
+        margin: 5vh 0 0 0;
+    }
+    #hero-img-1 {
+        display: none;
+    }
+    #hero-img-2 {
+        display: none;
+    }
+    /* COMPANIES */
+    #companies {
+        display: none;
+    }
+    #companies-phone {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10vh 0 10vh 0;
+    }
+    .companies-col {
+        display: flex;
+        flex-direction: column;
+        gap: 7vh;
+    }
+    #amazon-logo {
+        display: none;
+    }
+    /* PROJECTS */
+    #recent-projects-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0 8vh 0;
+        overflow: auto;
+        align-items: center;
+    }
+    #project-list {}
+    .project-item {
+        width: 90%;
+    }
+    /* TESTIMONIALS */
+    #testimonials-section {
+        width: 100%;
+    }
+    .memojis {
+        display: none;
+    }
+     /* SERVICES */
+     #services-section {
+        width: 90%;
+    }
+    #service-items {
+        flex-direction: column;
+        margin: 0 0 20vh 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    /* CTA */
+    #cta-section {
+        width: 100%;
+    }
+    #cta-form {
+        flex-direction: column;
+    }
+    #cta-form button {
+        padding: 4vh 5vh 4vh 5vh;
+        font-size: 17px;
+        margin: 2vh 0 0 0;
+    }
+    #cta-form-input {
+        background-color: #F1F4FB;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2.5vh 5vh;
+        width: 300px;
+    }
+    #cta-form-input img {
+        margin: 0 1vh 0 0;
+    }
+    #cta-form-input input[placeholder] {
+        color:black;
+        font-size: 18px;
+        background-color: #F1F4FB;
+        border-style: none;
+    }
+    /* FOOTER */
+    footer {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 8vh 0;
+    }
+    .footer-logo {
+        align-items: center;
+        text-align: center;
+        margin: 0 0 2vh 0;
+    }
+    .footer-nav {
+        align-items: center;
+        gap: 20px
+    }
 }

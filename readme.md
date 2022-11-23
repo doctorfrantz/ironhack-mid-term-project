@@ -24,3 +24,11 @@ MID TERM PROJECT - IRONHACK
 - Media Queries - Tablet - día 1
 
 ## Miércoles, 23 de Noviembre de 2022
+
+### Hecho
+
+- Margins y paddings Large Desktop
+- Media Queries en index.html
+  - Small Desktop (1200px a 992px) Completada
+  - Tablet (991px a 768px) Completada
+  - Smartphone (767px a 0px) Trabajando
