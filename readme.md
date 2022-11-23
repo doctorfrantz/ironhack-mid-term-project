@@ -31,4 +31,5 @@ MID TERM PROJECT - IRONHACK
 - Media Queries en index.html
   - Small Desktop (1200px a 992px) Completada
   - Tablet (991px a 768px) Completada
-  - Smartphone (767px a 0px) Trabajando
+  - Smartphone (767px a 480px) Completada
+  - Small Smartphone (479 a 0px) Completada
