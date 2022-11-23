@@ -409,7 +409,7 @@ footer {
 /* Media Queries */
 /* DESKTOP */
 @media only screen and (min-width: 992px) {
-    #burguer-menu-img {
+    #brguer-menu-img {
         display: none;
     }
     #hero-tablet-phone {

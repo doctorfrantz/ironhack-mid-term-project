@@ -22,3 +22,5 @@ MID TERM PROJECT - IRONHACK
 - Flex en index.html
 - Margins y paddings - día 1
 - Media Queries - Tablet - día 1
+
+## Miércoles, 23 de Noviembre de 2022
