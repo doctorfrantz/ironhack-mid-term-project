@@ -136,7 +136,7 @@ header nav a:hover {
     background-color: #292E47;
 }
 #hero-img-section {
-    background-image: url(assets/hero-section/hero-image.png);
+    background-image: url(/assets/hero-section/hero-image.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -211,7 +211,7 @@ header nav a:hover {
 /* Testimonials */
 #testimonials-section {
     background-color: #292E47;
-    background-image: url(assets/testimonial-section/orbit.png);
+    background-image: url(/assets/testimonial-section/orbit.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

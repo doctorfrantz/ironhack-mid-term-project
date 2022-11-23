@@ -35,13 +35,16 @@ MID TERM PROJECT - IRONHACK
   - Smartphone (767px a 480px) Completada
   - Small Smartphone (479 a 0px) Completada
 
-- contact.html HTML & CSS completed
+- contact.html HTML & CSS completado
 
-  - Structure
-  - Design
+  - Estructura
+  - Diseño
   - Grid
   - Media Queries
 
-- Burger menu integrated on header and burger files created
+- Burger menu integrado en el header
+
   - burger.js
   - burger.css
+
+- Projecttemplate.html listo
