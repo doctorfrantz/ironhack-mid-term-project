@@ -56,3 +56,4 @@ MID TERM PROJECT - IRONHACK
 - Contact Form envía información a la API
 - Project Template obtiene la información de la API
 - Other projects obtiene la información de la API
+- Se recibe un mensaje de comfirmación cuando se envía el formulario de contacto

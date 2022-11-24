@@ -4,7 +4,6 @@ const getExternalAPiInfo = () => {
       .then((res) => {
         let externalApiInfo = "";
         let projectTitle = "";
-        let projectLorem = "";
           for (let i = 0; i < 3; i++) {
                   externalApiInfo += `
                 </div>
@@ -20,12 +19,8 @@ const getExternalAPiInfo = () => {
           for (let i = 0; i < 1; i++) {
               projectTitle += `${res[i].title}`;
           }
-          for (let i = 0; i < 1; i++) {
-            projectLorem += `${res[i].title} ${res[i].body}`;
-        }
           document.querySelector(".other-projects").innerHTML += externalApiInfo;
         document.querySelector(".project-title").innerHTML += projectTitle;
-        document.querySelector(".lorem-one").innerHTML += projectLorem;
       })
       .catch((error) => console.log(error));
   };
