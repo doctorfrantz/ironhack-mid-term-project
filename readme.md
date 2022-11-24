@@ -54,3 +54,5 @@ MID TERM PROJECT - IRONHACK
 ### Hecho
 
 - Contact Form envía información a la API
+- Project Template obtiene la información de la API
+- Other projects obtiene la información de la API

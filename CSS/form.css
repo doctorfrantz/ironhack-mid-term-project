@@ -19,7 +19,7 @@
 }
 /* CONTACT FORM */
 /* GRID */
-#contact-form {
+#form {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -51,6 +51,7 @@
 .form-field {
     display: flex;
     flex-direction: column;
+    margin: 1em 0 0 0;
 }
 .form-label {
     font-family: 'Roboto', sans-serif;
@@ -102,7 +103,7 @@
     .main {
         width: 90%;
     }
-    #contact-form {
+    #form {
         grid-template-areas: 
             "name name name name name name"
             "email email email email email email"

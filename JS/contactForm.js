@@ -1,5 +1,5 @@
 
-  const addPost = (preventForm) => {
+  const contactForm = (preventForm) => {
     preventForm.preventDefault();
     let name = document.querySelector("#name").value;
     let email = document.querySelector("#email").value;
@@ -23,5 +23,5 @@
       .then((formData) => console.log(formData))
       .catch((error) => console.log(error));
   };
-  document.querySelector("#form").addEventListener("submit", addPost);
+  document.querySelector("#form").addEventListener("submit", contactForm);
   
