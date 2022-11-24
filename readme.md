@@ -48,3 +48,9 @@ MID TERM PROJECT - IRONHACK
   - burger.css
 
 - Projecttemplate.html listo
+
+## Jueves, 24 de Noviembre de 2022
+
+### Hecho
+
+- Contact Form envía información a la API

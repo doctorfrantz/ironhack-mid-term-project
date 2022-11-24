@@ -30,6 +30,7 @@
     font-family: Roboto, sans-serif;
     font-size: 20px;
     color: #6b708d;
+    margin: 0 0 0 1em;
 }
 /* PROJECT BODY */
 .project-body img {
@@ -43,4 +44,14 @@
     color: #292e47;
     line-height: 1.5em;
     margin: 0 0 1rem 0;
+}
+@media only screen and (max-width: 991px){
+    .project-info {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .project-header{
+        flex-direction: column;
+    }
 }

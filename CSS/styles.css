@@ -65,7 +65,9 @@ a:hover {
     background-color: #072AC8;
     border-style: none;
 }
-
+button:hover {
+    background-color: #292E47;
+}
 
 /* Header */
 
