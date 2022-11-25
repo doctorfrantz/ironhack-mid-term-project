@@ -892,6 +892,7 @@ footer {
     /* CTA */
     #cta-section {
         width: 100%;
+        padding: 0 0 2rem 0;
     }
     #cta-section h2 {
         text-align: center;
@@ -915,6 +916,9 @@ footer {
     }
     #cta-form-input img {
         margin: 0 1vh 0 0;
+    }
+    #cta-form-input input {
+        width: 60%;
     }
     #cta-form-input input[placeholder] {
         color:black;
