@@ -57,3 +57,16 @@ MID TERM PROJECT - IRONHACK
 - Project Template obtiene la información de la API
 - Other projects obtiene la información de la API
 - Se recibe un mensaje de comfirmación cuando se envía el formulario de contacto
+
+## Viernes, 25 de Noviembre de 2022
+
+### Hecho
+
+- Test general
+
+  - Comprobar responsiveness en todos los archivos html
+  - Comprobar conexión con la API de JSONplaceholder
+  - Presentación en Google Slides
+
+- Project template permite suscribirse desde la sección CTA
+- Arreglos en el CSS para adaptar la sección hero-text en el media querie <991px

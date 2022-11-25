@@ -5,14 +5,13 @@ const getExternalAPiInfo = () => {
         let externalApiInfo = "";
         let projectTitle = "";
           for (let i = 0; i < 3; i++) {
-                  externalApiInfo += `
-                </div>
+                  externalApiInfo += `                
                     <div class="project-item">
-                    <img src="/assets/projects-section/1.jpg" alt="Project Image">
-                    <h3 class="dark-grey project-title">${res[i].title}</h3>
-                    <p class="dark-grey project-description">Best App/Web Ever</p>
-                    <a class="dark-blue" href="/projecttemplate.html">Learn More</a>
-            </div>
+                      <img src="/assets/projects-section/1.jpg" alt="Project Image">
+                      <h3 class="dark-grey project-title">${res[i].title}</h3>
+                      <p class="dark-grey project-description">Best App/Web Ever</p>
+                      <a class="dark-blue" href="/projecttemplate.html">Learn More</a>
+                    </div>
                 `;
                 
           }
